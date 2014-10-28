@@ -1,0 +1,18 @@
+<template name="home">
+    {{#if currentUser}}
+      <h2>Welcome {{currentUser.username}}!</h2>
+    {{else}}
+      <form id="login">
+          <div class="form-control">
+              <label for="username">Username/Email</label>
+              <input type="text" name="username" id="username">
+          </div>
+          <div class="form-control">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password">
+          </div>
+          <button class="btn btn-primary" name="login" id="login">Login</button>
+      </form>
+      Or <a href="{{pathFor 'signup'}}">Sign up</a> for an account!
+    {{/if}}
+</template>

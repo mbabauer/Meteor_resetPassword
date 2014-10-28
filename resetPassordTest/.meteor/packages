@@ -1,0 +1,23 @@
+# Meteor packages used by this project, one per line.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-platform
+jquery
+iron:router
+iron:layout
+iron:dynamic-template
+sacha:spin
+natestrauser:font-awesome
+accounts-password
+less
+alanning:roles
+reactive-var
+mrt:jquery-ui
+spacebars
+email
+mdg:camera
+mdg:geolocation
+nemo64:bootstrap
+zimme:iron-router-active@=0.3.0-pre.1
